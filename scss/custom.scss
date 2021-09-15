@@ -1,0 +1,112 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+
+.brandtext{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.headingtext{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.custombody{
+    background: rgb(9,136,14);
+    background: linear-gradient(147deg, rgba(9,136,14,1) 0%, rgba(34,219,50,1) 29%, rgba(138,255,122,1) 57%, rgba(55,253,123,1) 70%, rgba(250,254,255,1) 100%);
+}
+
+.btn-green-700{
+    background-color: rgb(23, 109, 2);
+}
+
+.carousel-item{
+height: 550px;
+}
+.feature-holder{
+    background-color: rgb(235, 233, 233);
+}
+
+.customtext{
+    font-family: 'Varela Round', sans-serif;
+}
+.courses-text-widget{
+    text-align: center;
+}
+.cardimg{
+    object-fit: cover;
+    aspect-ratio: 1/.7;
+}
+
+.bg-footer{
+    background-color: rgb(235, 235, 235);
+}
+
+.more-margin{
+    margin-top: 100px;
+}
+.review-slider{
+    background-color: rgb(207, 207, 207);
+}
+
+
+.align-center {
+    text-align: center;
+}
+.hash-list {
+    display: block;
+    padding: 0;
+    margin: 0 auto;
+}
+
+@media (min-width: 768px){
+    .hash-list.cols-3 > li:nth-last-child(-n+3) {
+        border-bottom: none;
+    }
+}
+@media (min-width: 768px){
+    .hash-list.cols-3 > li {
+        width: 33.3333%;
+    }
+}
+.hash-list > li {
+    display: block;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.pad-30, .pad-30-all > * {
+    padding: 30px;
+}
+img {
+    border: 0;
+}
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+.wpx-100, .wpx-100-after:after {
+    width: 100px;
+}
+.img-round, .img-rel-round {
+    border-radius: 50%;
+}
+.padb-30, .padb-30-all > * {
+    padding-bottom: 30px;
+}
+
+.mgb-40, .mgb-40-all > * {
+    margin-bottom: 40px;
+}
+.align-center {
+    text-align: center;
+}
+[class*="line-b"] {
+    position: relative;
+    padding-bottom: 20px;
+    border-color: #E6AF2A;
+}
+.fg-text-d, .fg-hov-text-d:hover, .fg-active-text-d.active {
+    color: #222;
+}
+.font-cond-b {
+    font-weight: 700 !important;
+}
